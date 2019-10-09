@@ -1,0 +1,10 @@
+server:
+  port: 8888
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations: file:///D:/Data/drive-download-20191007T052814Z-001/Lab07/src/main/resources/config/microservice
